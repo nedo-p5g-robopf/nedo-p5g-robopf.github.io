@@ -2,7 +2,7 @@
 
 NEDO P5G ロボットプラットフォームPJ Webページ。
 
-NEDO ポスト5G事業のうち、産総研コンソによる「ロボットSI効率化に向けた品質・信頼性・安全性強化型ソフトウェア開発基盤の構築」を紹介するJekyllサイトです。
+NEDO ポスト5G事業のロボティクスソフトウェア開発基盤を紹介するJekyllサイトです。プロジェクトページでは産総研・川崎重工業・竹中工務店の3つのコンソの取組と参画機関を紹介し、成果一覧では産総研コンソの16の開発項目を掲載しています。
 
 ## ローカル開発
 
@@ -44,7 +44,8 @@ python3 scripts/check_site.py _site
 | プロジェクト紹介 | `project/index.html` |
 | 研究成果一覧 | `research/index.html` |
 | 各成果の内容・公開先 | `_research/*.md` |
-| 参画機関 | `_data/members.yml` |
+| コンソの取組 | `_data/consortia.yml` |
+| 参画機関・所属コンソ | `_data/members.yml` |
 | 工程別の分類 | `_data/stages.yml` |
 | 配色・レイアウト | `assets/css/site.css` |
 | 絞り込み・メニュー | `assets/js/site.js` |
@@ -54,6 +55,6 @@ python3 scripts/check_site.py _site
 
 検索はブラウザー内だけで動作し、検索語は外部に送信されません。検索条件はURLに保存され、共有できます。外部フォント・解析サービス・Cookie・問い合わせフォームは使用していません。
 
-## 掲載内容の根拠
+## コンテンツの更新
 
-[コンテンツの出典と公開前の確認事項](docs/content-sources.md) にまとめています。添付PDFは参考資料としてのみ使用し、サイトの配布ファイルには含めていません。
+[コンテンツの編集ガイド](docs/content-sources.md) を参照してください。

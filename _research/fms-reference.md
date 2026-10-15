@@ -9,13 +9,10 @@ icon: network
 owners:
 - 富士ソフト株式会社
 owner_short: 富士ソフト株式会社
-source_pages:
-- 22
-- 23
 featured: false
 ---
 ## 実際のシステムで、品質向上の仕組みを検証する
-FMS（Flexible Manufacturing Systems）をリファレンスシステムとして構築し、ソースコード検証支援ツールを適用する取組です。資料では、2種類のFMSを構築する計画と、ラインへの部品供給の開発が紹介されています。
+FMS（Flexible Manufacturing Systems）をリファレンスシステムとして構築し、ソースコード検証支援ツールを適用する取組です。2種類のFMSの構築を計画し、ラインへの部品供給などを対象に開発を進めます。
 
 ## 主な研究開発内容
 - 各工程への部品箱供給

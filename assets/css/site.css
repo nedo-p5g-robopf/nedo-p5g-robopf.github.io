@@ -1056,6 +1056,80 @@ a:hover {
 .ecosystem-flow span[aria-hidden] {
   color: #718466;
 }
+.ecosystem-card .text-link {
+  margin-top: 18px;
+  font-size: 12px;
+}
+.consortium-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 42px;
+}
+.consortium-nav a {
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.consortium-nav a:hover {
+  background: var(--cream);
+}
+.consortium-group {
+  padding-top: 42px;
+  border-top: 2px solid #6b8d75;
+}
+.consortium-group + .consortium-group {
+  margin-top: 62px;
+}
+.consortium-heading h3 {
+  font-size: clamp(24px, 2.6vw, 32px);
+}
+.consortium-tagline {
+  margin-top: 16px;
+  font-size: 19px;
+  font-weight: 700;
+}
+.consortium-description {
+  max-width: 960px;
+  margin-top: 18px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.consortium-initiatives {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-block: 30px 24px;
+}
+.consortium-initiatives > div {
+  padding: 24px;
+  background: var(--cream);
+  border-radius: 4px;
+}
+.consortium-initiatives h4 {
+  margin: 0 0 12px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+.consortium-initiatives p {
+  font-size: 13px;
+  color: var(--muted);
+}
+.consortium-benefit {
+  max-width: 960px;
+  font-size: 14px;
+}
+.consortium-group > .text-link {
+  margin-top: 14px;
+}
+.members-label {
+  margin-top: 34px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
 .members-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1071,7 +1145,7 @@ a:hover {
   line-height: 1.8;
   min-height: 20px;
 }
-.member h3 {
+.member h4 {
   font-size: 17px;
   margin: 9px 0 12px;
 }
@@ -1496,6 +1570,35 @@ a:hover {
   }
 }
 @media (max-width: 680px) {
+  .consortium-nav {
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .consortium-nav a {
+    font-size: 11px;
+    padding: 10px 12px;
+  }
+  .consortium-group {
+    padding-top: 30px;
+  }
+  .consortium-group + .consortium-group {
+    margin-top: 40px;
+  }
+  .consortium-tagline {
+    font-size: 17px;
+  }
+  .consortium-description,
+  .consortium-benefit {
+    font-size: 13px;
+  }
+  .consortium-initiatives {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-block: 24px;
+  }
+  .consortium-initiatives > div {
+    padding: 22px;
+  }
   html {
     scroll-padding-top: 90px;
   }
@@ -1909,7 +2012,7 @@ a:hover {
   .member-type {
     font-size: 9px;
   }
-  .member h3 {
+  .member h4 {
     font-size: 15px;
     line-height: 1.7;
   }

@@ -8,10 +8,6 @@ icon: shield
 owners:
 - 産業技術総合研究所コンソ
 owner_short: 産業技術総合研究所コンソ
-source_pages:
-- 4
-- 5
-- 10
 featured: false
 ---
 ## 再利用するソフトウェアを確かめる

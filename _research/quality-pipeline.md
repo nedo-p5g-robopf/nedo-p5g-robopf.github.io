@@ -11,9 +11,6 @@ owners:
 - 会津大学
 - 名城大学
 owner_short: 産業技術総合研究所・会津大学・名城大学
-source_pages:
-- 5
-- 10
 featured: true
 ---
 ## 品質確認を、日々の開発工程に

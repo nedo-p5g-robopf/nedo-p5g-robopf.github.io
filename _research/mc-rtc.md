@@ -9,8 +9,6 @@ owners:
 - 産業技術総合研究所
 - 東京大学
 owner_short: 産業技術総合研究所・東京大学
-source_pages:
-- 11
 featured: true
 resource_url: https://github.com/jrl-umi3218/mc_rtc
 ---

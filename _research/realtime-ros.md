@@ -9,9 +9,6 @@ icon: pulse
 owners:
 - イーソル株式会社
 owner_short: イーソル株式会社
-source_pages:
-- 14
-- 15
 featured: true
 resource_url: https://github.com/esol-community/ros2_realtime_support
 ---

@@ -9,9 +9,6 @@ icon: transport
 owners:
 - 株式会社セック
 owner_short: 株式会社セック
-source_pages:
-- 18
-- 19
 featured: false
 ---
 ## 現場のシステムを活かしながら、段階的に自動化する

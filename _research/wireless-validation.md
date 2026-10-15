@@ -10,8 +10,6 @@ owners:
 - 産業技術総合研究所
 - 東京都立大学
 owner_short: 産業技術総合研究所・東京都立大学
-source_pages:
-- 12
 featured: false
 ---
 ## 通信の課題を、導入前後で把握する

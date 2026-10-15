@@ -1,10 +1,83 @@
 ---
 title: プロジェクトについて
-description: ロボット未活用領域・ロングテール領域への導入を支える、品質・信頼性・安全性強化型ソフトウェア開発基盤の研究開発。事業の目的、全体像、産総研コンソの参画機関を紹介します。
+description: ロボット未活用領域・ロングテール領域への導入を支えるソフトウェア開発基盤。産業技術総合研究所・川崎重工業・竹中工務店の3つのコンソの取組と参画機関を紹介します。
 ---
 <div class="container breadcrumb"><a href="{{ '/' | relative_url }}">ホーム</a><span>/</span><span>プロジェクト</span></div>
-<section class="page-heading container"><p class="eyebrow">ABOUT THE PROJECT</p><h1>ロボットの可能性を、<br>未活用の領域へ。</h1><p class="lead">柔軟な開発と、品質・信頼性・安全性の両立を目指して。</p></section>
-<section class="section project-intro"><div class="container intro-grid"><div><p class="eyebrow">BACKGROUND & MISSION</p><h2>多様な現場に応える、<br>ソフトウェアの共通基盤。</h2></div><div class="prose"><p>人手不足への対応と生産性の向上に向けて、これまでロボットの導入が進んでいなかった領域での活用が求められています。多品種少量の作業や、人と接する複雑な環境では、従来の個別開発に加えて、柔軟で再利用しやすいソフトウェアが重要になります。</p><p>本プロジェクトでは、既存のオープンな開発環境を活かしながら、ソフトウェアの品質や信頼性を確認し、設計から現場導入までを支援する基盤を構築します。多様な開発主体が持つ技術を組み合わせ、ロボットSIの効率化と未活用領域への導入を推進します。</p></div></div></section>
-<section class="section ecosystem-section"><div class="container"><div class="section-heading"><div><p class="eyebrow">PROJECT ECOSYSTEM</p><h2>3つのコンソが連携する、開発・流通基盤。</h2></div></div><p class="section-intro">NEDO事業全体では、共通アーキテクチャや開発・運用支援ツール、ユースケース向けモジュールを連携させる取組が進められています。本サイトでは、そのうち産総研コンソの研究開発成果を紹介します。</p><div class="ecosystem-grid"><article class="ecosystem-card is-focus"><span class="scope-label">本サイトの紹介対象</span><h3>産業技術総合研究所コンソ</h3><p>品質管理・開発支援ツール</p><ul><li>品質・セキュリティ向上</li><li>設計・開発・検証の支援</li><li>現場導入・教示の支援</li></ul></article><article class="ecosystem-card"><span class="scope-label">連携するコンソ</span><h3>川崎重工業コンソ</h3><p>共通アーキテクチャ・基本機能</p><ul><li>メーカーに依存しない接続</li><li>ソフトウェア開発・運用基盤</li><li>モジュールの再利用・流通</li></ul></article><article class="ecosystem-card"><span class="scope-label">連携するコンソ</span><h3>竹中工務店コンソ</h3><p>建設業界向けモジュール・ツール</p><ul><li>建設業のユースケース</li><li>標準モジュールと通信基盤</li><li>仮想検証・運用支援</li></ul></article></div><div class="ecosystem-flow"><span>モジュールの開発</span><span aria-hidden="true">→</span><span>検証・スクリーニング</span><span aria-hidden="true">→</span><span>流通・再利用</span><span aria-hidden="true">→</span><span>現場への導入</span></div></div></section>
-<section class="section" id="members"><div class="container"><div class="section-heading"><div><p class="eyebrow">PROJECT MEMBERS</p><h2>産総研コンソの参画機関</h2></div><p>研究と実装、現場の知見をつなぐ。</p></div><div class="members-grid">{% for member in site.data.members %}<article class="member"><p class="member-type">{{ member.type }}</p><h3>{{ member.name }}</h3><p>{{ member.role }}</p></article>{% endfor %}</div><p class="catalog-note">参画機関と担当領域は、CEATEC紹介資料に記載された内容に基づきます。</p></div></section>
-<section class="section project-facts"><div class="container narrow"><p class="eyebrow">PROJECT INFORMATION</p><h2>事業情報</h2><dl class="facts"><dt>事業</dt><dd>NEDO ポスト5G情報通信システム基盤強化研究開発事業（ロボティクスソフトウェア開発PF）</dd><dt>研究開発項目</dt><dd>ロボティクス分野におけるソフトウェア開発基盤構築</dd><dt>プロジェクト名</dt><dd>ロボットSI効率化に向けた品質・信頼性・安全性強化型ソフトウェア開発基盤の構築</dd><dt>紹介する成果</dt><dd>開発支援ツール、フレームワーク、リファレンスシステム等の16の開発項目</dd></dl><div class="content-note" id="about-content"><h3>掲載情報について</h3><p>本サイトは「CEATECスライド（統合、冒頭にコンソ概要）R01」をもとに、研究開発の目的・内容を紹介しています。成果の分類や説明は、利用場面に沿って整理したものです。最新の配布条件、対応環境、ライセンスは、各成果の公開先をご確認ください。</p><p>安全性評価やリスクアセスメントの支援ツールは、設計・評価の判断を支援するものです。ツールの利用だけで、個別のロボットシステムの安全性を保証するものではありません。</p></div></div></section>
+<section class="page-heading container">
+  <p class="eyebrow">ABOUT THE PROJECT</p>
+  <h1>ロボットの可能性を、<br>未活用の領域へ。</h1>
+  <p class="lead">柔軟な開発と、品質・信頼性・安全性の両立を目指して。</p>
+</section>
+<section class="section project-intro">
+  <div class="container intro-grid">
+    <div><p class="eyebrow">BACKGROUND & MISSION</p><h2>多様な現場に応える、<br>ソフトウェアの共通基盤。</h2></div>
+    <div class="prose">
+      <p>人手不足への対応と生産性の向上に向けて、これまでロボットの導入が進んでいなかった領域での活用が求められています。多品種少量の作業や、人と接する複雑な環境では、従来の個別開発に加えて、柔軟で再利用しやすいソフトウェアが重要になります。</p>
+      <p>既存のオープンな開発環境を活かしながら、ソフトウェアの品質や信頼性を確認し、設計から現場導入までを支援する基盤を構築します。多様な開発主体が持つ技術を組み合わせ、ロボットSIの効率化と未活用領域への導入を推進します。</p>
+    </div>
+  </div>
+</section>
+<section class="section ecosystem-section">
+  <div class="container">
+    <div class="section-heading"><div><p class="eyebrow">PROJECT ECOSYSTEM</p><h2>3つのコンソが連携する、開発・流通基盤。</h2></div></div>
+    <p class="section-intro">産業技術総合研究所、川崎重工業、竹中工務店の各コンソが、品質管理・開発支援、共通アーキテクチャ・基本機能、建設業向けのモジュール・ツールを分担。開発から検証、流通、現場での活用までをつなぎます。</p>
+    <div class="ecosystem-grid">
+      {% for consortium in site.data.consortia %}
+      <article class="ecosystem-card">
+        <span class="scope-label">{{ consortium.number }} / {{ consortium.role }}</span>
+        <h3>{{ consortium.name }}</h3>
+        <ul>{% for topic in consortium.topics %}<li>{{ topic }}</li>{% endfor %}</ul>
+        <a class="text-link" href="#consortium-{{ consortium.id }}">取組と参画機関を見る <span aria-hidden="true">↓</span></a>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="ecosystem-flow"><span>モジュールの開発</span><span aria-hidden="true">→</span><span>検証・スクリーニング</span><span aria-hidden="true">→</span><span>流通・再利用</span><span aria-hidden="true">→</span><span>現場への導入</span></div>
+  </div>
+</section>
+<section class="section consortium-section" id="members">
+  <div class="container">
+    <div class="section-heading"><div><p class="eyebrow">CONSORTIA & MEMBERS</p><h2>各コンソの取組と参画機関</h2></div><p>研究と実装、現場の知見をつなぐ。</p></div>
+    <nav class="consortium-nav" aria-label="コンソーシアム別の紹介"><a href="#consortium-aist">産総研コンソ ↓</a><a href="#consortium-kawasaki">川崎重工業コンソ ↓</a><a href="#consortium-takenaka">竹中工務店コンソ ↓</a></nav>
+    {% for consortium in site.data.consortia %}
+    <article class="consortium-group" id="consortium-{{ consortium.id }}" aria-labelledby="consortium-title-{{ consortium.id }}">
+      <header class="consortium-heading">
+        <p class="eyebrow">{{ consortium.number }} / {{ consortium.en }}</p>
+        <h3 id="consortium-title-{{ consortium.id }}">{{ consortium.name }}</h3>
+        <p class="consortium-tagline">{{ consortium.tagline }}</p>
+        <p class="consortium-description">{{ consortium.description }}</p>
+      </header>
+      <div class="consortium-initiatives">
+        {% for initiative in consortium.initiatives %}
+        <div><h4>{{ initiative.title }}</h4><p>{{ initiative.description }}</p></div>
+        {% endfor %}
+      </div>
+      <p class="consortium-benefit">{{ consortium.benefit }}</p>
+      {% if consortium.id == 'aist' %}<a class="text-link" href="{{ '/research/' | relative_url }}">産総研コンソの16の開発項目を見る <span aria-hidden="true">↗</span></a>{% endif %}
+      <p class="members-label">参画機関と担当領域</p>
+      <div class="members-grid">
+        {% assign members = site.data.members | where: 'consortium', consortium.id %}
+        {% for member in members %}
+        <div class="member"><p class="member-type">{{ member.type }}</p><h4>{{ member.name }}</h4><p>{{ member.role }}</p></div>
+        {% endfor %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+<section class="section project-facts">
+  <div class="container narrow">
+    <p class="eyebrow">PROJECT INFORMATION</p><h2>事業情報</h2>
+    <dl class="facts">
+      <dt>事業</dt><dd>NEDO ポスト5G情報通信システム基盤強化研究開発事業（ロボティクスソフトウェア開発PF）</dd>
+      <dt>研究開発項目</dt><dd>ロボティクス分野におけるソフトウェア開発基盤構築</dd>
+      <dt>実施体制</dt><dd>産業技術総合研究所コンソ・川崎重工業コンソ・竹中工務店コンソが連携</dd>
+      <dt>産総研コンソの<br>プロジェクト名</dt><dd>ロボットSI効率化に向けた品質・信頼性・安全性強化型ソフトウェア開発基盤の構築</dd>
+      <dt>成果一覧の掲載対象</dt><dd>産総研コンソの開発支援ツール、フレームワーク、リファレンスシステム等の16の開発項目</dd>
+    </dl>
+    <div class="content-note" id="about-content">
+      <h3>成果物の利用について</h3>
+      <p>最新の配布条件、対応環境、ライセンスは、各成果の公開先をご確認ください。</p>
+      <p>安全性評価やリスクアセスメントの支援ツールは、設計・評価の判断を支援するものです。ツールの利用だけで、個別のロボットシステムの安全性を保証するものではありません。</p>
+    </div>
+  </div>
+</section>

@@ -8,9 +8,6 @@ icon: chat
 owners:
 - 株式会社豆蔵
 owner_short: 株式会社豆蔵
-source_pages:
-- 24
-- 25
 featured: false
 ---
 ## 現場の言葉を、ロボットの動作変更につなぐ

@@ -11,8 +11,8 @@ layout: default
     <div class="prose">{{ content }}</div>
     <aside class="resource-panel" aria-label="成果物の情報">
       <p class="eyebrow">RESOURCE</p><h2>この成果について</h2>
-      <dl><dt>担当機関</dt><dd>{{ page.owners | join: '／' }}</dd><dt>資料での紹介箇所</dt><dd>CEATEC紹介資料 p. {{ page.source_pages | join: '・' }}</dd></dl>
-      {% if page.resource_url %}<span class="status is-open"><span class="status-dot"></span>公開リポジトリあり</span><a class="button button-primary" href="{{ page.resource_url }}">{{ page.resource_label | default: 'ソースコードを見る' }} {% include icon.html name="external" %}</a><p class="resource-note">導入方法・対応環境・ライセンスは、配布先のドキュメントをご確認ください。</p>{% else %}<p class="resource-note">このページは研究開発内容の紹介です。ソフトウェアの配布先は、本サイトには未掲載です。</p>{% endif %}
+      <dl><dt>担当機関</dt><dd>{{ page.owners | join: '／' }}</dd></dl>
+      {% if page.resource_url %}<span class="status is-open"><span class="status-dot"></span>公開リポジトリあり</span><a class="button button-primary" href="{{ page.resource_url }}">{{ page.resource_label | default: 'ソースコードを見る' }} {% include icon.html name="external" %}</a><p class="resource-note">導入方法・対応環境・ライセンスは、配布先のドキュメントをご確認ください。</p>{% else %}<p class="resource-note">このページは研究開発内容の紹介です。ソフトウェアの配布先は、個別のGitHubリポジトリなどをご参照ください。リンク未掲載の場合は、現時点で非公開の成果物となります。</p>{% endif %}
     </aside>
   </div>
 </article>

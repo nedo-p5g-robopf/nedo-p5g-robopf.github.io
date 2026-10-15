@@ -9,9 +9,6 @@ icon: shield
 owners:
 - 技術研究組合 産業用ロボット次世代基礎技術研究機構（ROBOCIP）
 owner_short: ROBOCIP
-source_pages:
-- 16
-- 17
 featured: false
 ---
 ## 構想から運用まで、専門的な検討を支援する

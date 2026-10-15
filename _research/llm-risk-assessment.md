@@ -9,8 +9,6 @@ icon: shield
 owners:
 - 産業技術総合研究所
 owner_short: 産業技術総合研究所
-source_pages:
-- 13
 featured: true
 ---
 ## リスクの見落としを減らし、判断の根拠を残す

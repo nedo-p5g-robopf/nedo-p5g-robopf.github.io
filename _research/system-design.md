@@ -9,8 +9,6 @@ owners:
 - 産業技術総合研究所
 - 東京都立大学
 owner_short: 産業技術総合研究所・東京都立大学
-source_pages:
-- 12
 featured: false
 ---
 ## 設計の根拠と、変更の影響を共有する

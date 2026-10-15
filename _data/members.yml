@@ -1,36 +1,100 @@
 - name: 産業技術総合研究所
   type: 国立研究開発法人
   role: 品質向上基盤・設計支援・リファレンスシステム等
+  consortium: aist
 - name: 会津大学
   type: 公立大学法人
   role: ROS 2・ソフトウェアモジュール開発基盤
+  consortium: aist
 - name: 名城大学
   type: 学校法人
   role: ROS 2・ソフトウェアモジュール開発基盤
+  consortium: aist
 - name: 東京大学
   type: 国立大学法人
   role: 多自由度制御・移動／操作／把持プランニング
+  consortium: aist
 - name: 東京都立大学
   type: 公立大学法人
   role: 通信環境検証・ロボット設計支援
+  consortium: aist
 - name: イーソル株式会社
   type: 企業
   role: リアルタイムROS実行環境
+  consortium: aist
 - name: ROBOCIP
   type: 技術研究組合 産業用ロボット次世代基礎技術研究機構
   role: 作業・安全設計・遠隔操作支援
+  consortium: aist
 - name: 株式会社セック
   type: 企業
   role: 搬送業務向けリファレンスロボットシステム
+  consortium: aist
 - name: パナソニック ホールディングス株式会社
   type: 企業
   role: ロボットシステム統合検証
+  consortium: aist
 - name: 富士ソフト株式会社
   type: 企業
   role: FMSリファレンスシステム・品質検証
+  consortium: aist
 - name: 株式会社豆蔵
   type: 企業
   role: AIを活用したエンドユーザ教示
+  consortium: aist
 - name: 立命館大学
   type: 学校法人
   role: 柔軟物ハンドリングシミュレーション
+  consortium: aist
+- name: 川崎重工業株式会社
+  type: 企業
+  role: 共通管理基盤・ローコード開発環境・多品種少量生産での実証
+  consortium: kawasaki
+- name: ugo株式会社
+  type: 企業
+  role: 基本アーキテクチャ・サービスロボット開発環境・ピック＆プレイス
+  consortium: kawasaki
+- name: 株式会社安川電機
+  type: 企業
+  role: クラウドAI開発環境・認識／判断モジュール
+  consortium: kawasaki
+- name: 株式会社ダイヘン
+  type: 企業
+  role: AMR向け三次元形状認識・搬送シミュレーション・ROS 2インターフェース
+  consortium: kawasaki
+- name: ヤマハ発動機株式会社
+  type: 企業
+  role: リニアコンベア・スカラロボットのROS 2ドライバとシミュレーション
+  consortium: kawasaki
+- name: FingerVision
+  type: 企業
+  role: 視触覚ハンドのROS 2モジュール化・異種ロボットの統合
+  consortium: kawasaki
+- name: NTT西日本
+  type: 企業
+  role: 異種ロボット統合・遠隔教示／AI調整・遠隔運用／保守
+  consortium: kawasaki
+- name: 株式会社竹中工務店
+  type: 企業
+  role: 全体アーキテクチャ・建設ロボットの設計／運用ガイドライン
+  consortium: takenaka
+- name: Kudan
+  type: 企業
+  role: 自己位置推定・地図作成・経路計画・自律走行／フリート管理
+  consortium: takenaka
+- name: ジザイエ
+  type: 企業
+  role: 標準ハードウェア・機器接続／プロファイル・リファレンスシャーシ
+  consortium: takenaka
+- name: アスラテック株式会社
+  type: 企業
+  role: ローカル5G／メッシュWi-Fi・通信端末・電波強度推定
+  consortium: takenaka
+- name: 燈
+  type: 企業
+  role: BIM／3Dデータを活用したシミュレーション・事前検証環境
+  consortium: takenaka
+- name: センシンロボティクス
+  type: 企業
+  role: 異機種ロボットの運用支援・タスク／現場／保守管理
+  consortium: takenaka
