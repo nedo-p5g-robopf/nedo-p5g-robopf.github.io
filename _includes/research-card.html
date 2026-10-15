@@ -1,0 +1,8 @@
+<article class="research-card" data-stage="{{ include.item.stages | join: ' ' }}" data-public="{% if include.item.resource_url %}true{% else %}false{% endif %}">
+  <div class="card-top"><span class="item-number">R{{ include.item.number }}</span><span class="status{% if include.item.resource_url %} is-open{% endif %}">{% if include.item.resource_url %}<span class="status-dot"></span>公開リポジトリあり{% else %}研究開発紹介{% endif %}</span></div>
+  <div class="card-symbol">{% include icon.html name=include.item.icon %}</div>
+  <div class="card-tags">{% for stage in site.data.stages %}{% if include.item.stages contains stage.id %}<span>{{ stage.title }}</span>{% endif %}{% endfor %}</div>
+  <h3><a href="{{ include.item.url | relative_url }}">{{ include.item.title }}<span class="card-arrow" aria-hidden="true">↗</span></a></h3>
+  <p>{{ include.item.description }}</p>
+  <div class="card-owner">{{ include.item.owner_short }}</div>
+</article>

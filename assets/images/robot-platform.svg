@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="560" viewBox="0 0 660 560" fill="none">
+<defs>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse" patternTransform="matrix(1 .5 -1 .5 330 150)"><path d="M38 0H0v38" stroke="#8ab4a6" stroke-opacity=".17"/></pattern>
+ <linearGradient id="plate" x1="240" y1="210" x2="500" y2="470" gradientUnits="userSpaceOnUse"><stop stop-color="#466460"/><stop offset="1" stop-color="#193d3e"/></linearGradient>
+ <linearGradient id="metal" x1="250" y1="150" x2="360" y2="330" gradientUnits="userSpaceOnUse"><stop stop-color="#f0f3e7"/><stop offset="1" stop-color="#8ba39a"/></linearGradient>
+ <linearGradient id="joint"><stop stop-color="#d5ecbf"/><stop offset="1" stop-color="#86ba71"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#a6d780" stop-opacity=".13"/><stop offset="1" stop-color="#a6d780" stop-opacity="0"/></radialGradient>
+</defs>
+<ellipse cx="350" cy="280" rx="300" ry="245" fill="url(#glow)"/>
+<rect x="5" y="65" width="650" height="480" fill="url(#grid)"/>
+<g stroke="#5c8c80" stroke-width="1" stroke-dasharray="4 7">
+ <path d="m128 307 198-102 230 118-199 106Z"/>
+ <path d="M326 205V77m230 246V195M128 307V182M357 429v75"/>
+</g>
+<path d="m176 331 169-89 177 92v24l-166 91-180-94Z" fill="#102c2f" stroke="#729182"/>
+<path d="m176 331 169-89 177 92-166 92Z" fill="url(#plate)" stroke="#8cae9b"/>
+<path d="M356 426v23m-180-118v24" stroke="#a9c4ac"/>
+<path d="m198 331 146-77 155 80-144 77Z" stroke="#a8ce9b" stroke-opacity=".4"/>
+<g stroke="#7ba18e" stroke-opacity=".45"><path d="m236 312 155 80m-117-100 155 79m-117-99 155 79m-234-8 146-76m-108 96 146-77m-107 97 146-77"/></g>
+<g>
+ <path d="m277 330 55-28 57 29v24l-55 30-57-30Z" fill="#5d7770" stroke="#b8cbb6"/>
+ <path d="m277 330 55-28 57 29-55 30Z" fill="#c4d0bb"/>
+ <path d="M334 361v24" stroke="#344f4d"/>
+ <ellipse cx="333" cy="329" rx="36" ry="18" fill="#1c3b3b" stroke="#d4ddc8"/>
+ <path d="M305 310v18c0 17 56 17 56 0v-18" fill="#9db198" stroke="#c9d5c0"/>
+ <ellipse cx="333" cy="310" rx="28" ry="14" fill="#d8e0c9"/>
+ <path d="m315 307-13-84 28-12 24 88-15 17Z" fill="url(#metal)" stroke="#d5dfca"/>
+ <path d="m330 211 24 88-15 17-12-86Z" fill="#728e83"/>
+ <path d="m312 227-63-56 17-28 74 62Z" fill="url(#metal)" stroke="#dfe6d0"/>
+ <path d="m249 171 63 56 8-16-59-56Z" fill="#91a99b"/>
+ <path d="m266 143 74 62-13 9-66-59Z" fill="#eef0dc"/>
+ <ellipse cx="321" cy="216" rx="23" ry="27" transform="rotate(-23 321 216)" fill="#34524b" stroke="#c0d3b5" stroke-width="3"/>
+ <ellipse cx="321" cy="216" rx="13" ry="16" transform="rotate(-23 321 216)" fill="url(#joint)"/>
+ <ellipse cx="258" cy="157" rx="22" ry="25" transform="rotate(-23 258 157)" fill="#34524b" stroke="#d7dfca" stroke-width="3"/>
+ <ellipse cx="258" cy="157" rx="12" ry="14" transform="rotate(-23 258 157)" fill="url(#joint)"/>
+ <path d="m267 141 88-23 17 14-93 29Z" fill="#e5e8d4" stroke="#e5e8d4"/>
+ <path d="m279 161 93-29-1 18-93 28Z" fill="#91a99b"/>
+ <path d="m355 118 17 14-1 18-16-11Z" fill="#b8c7ac"/>
+ <path d="m372 133 18 10-1 25-17-9Z" fill="#24443d" stroke="#b5c5a9"/>
+ <path d="m389 168 15 8v21m-32-38-12 7v18" stroke="#d1dcc4" stroke-width="7"/>
+ <path d="m404 197-9 6m-35-19 9 5" stroke="#b7e877" stroke-width="5"/>
+</g>
+<path d="M383 204v61" stroke="#b5e67c" stroke-dasharray="4 5"/>
+<ellipse cx="383" cy="272" rx="29" ry="13" stroke="#b5e67c" stroke-dasharray="3 4"/>
+<path d="m370 265 13-7 14 7v15l-14 8-13-8Z" fill="#b5e67c" fill-opacity=".2" stroke="#b5e67c"/>
+<path d="m370 265 13 8 14-8m-14 8v15" stroke="#b5e67c"/>
+<g stroke="#b7e28b" stroke-opacity=".65"><path d="M260 155h-69l-28-34H87"/><path d="M350 216h89l27-55h91"/><path d="M390 353h49l28 63h103"/></g>
+<g fill="#b7e28b"><circle cx="260" cy="155" r="3"/><circle cx="350" cy="216" r="3"/><circle cx="390" cy="353" r="3"/></g>
+<g font-family="Arial, sans-serif" font-size="11" letter-spacing="1.4">
+ <rect x="38" y="78" width="149" height="54" rx="4" fill="#163c3d" stroke="#608475"/>
+ <path d="m54 102 5 5 10-13" stroke="#b7e28b" stroke-width="2"/>
+ <text x="78" y="101" fill="#dfebdc">QUALITY</text><text x="78" y="119" fill="#9ab5aa" font-size="9">CODE / SECURITY</text>
+ <rect x="454" y="119" width="162" height="54" rx="4" fill="#163c3d" stroke="#608475"/>
+ <circle cx="474" cy="141" r="7" stroke="#b7e28b"/><path d="M471 141h6m-3-3v6" stroke="#b7e28b"/>
+ <text x="491" y="141" fill="#dfebdc">RELIABILITY</text><text x="491" y="159" fill="#9ab5aa" font-size="9">CONTROL / VERIFY</text>
+ <rect x="455" y="400" width="163" height="54" rx="4" fill="#163c3d" stroke="#608475"/>
+ <path d="m471 413 8 3v7l-8 6-8-6v-7Z" stroke="#b7e28b"/>
+ <text x="491" y="423" fill="#dfebdc">SAFETY</text><text x="491" y="441" fill="#9ab5aa" font-size="9">DESIGN / ASSESS</text>
+</g>
+<g transform="translate(72 380)">
+ <path d="m0 18 36-19 39 20v32L39 71 0 51Z" fill="#244947" stroke="#749b86"/><path d="m0 18 39 20 36-19M39 38v33" stroke="#a9c4a7"/>
+ <path d="m10 18 26-13 29 14-26 14Z" fill="#b7e28b" fill-opacity=".3"/>
+ <path d="m18 41 9 5m-9 3 9 5" stroke="#b7e28b" stroke-width="2"/>
+</g>
+<path d="m150 416 52 27 55-29" stroke="#9dc68d" stroke-dasharray="4 5"/>
+<g font-family="Arial, sans-serif" fill="#9cb6a9" font-size="10" letter-spacing="2"><text x="59" y="487">MODULAR SOFTWARE</text><text x="372" y="498">DESIGN → DEVELOP → VERIFY → DEPLOY</text></g>
+<g stroke="#759e8b"><path d="M37 47v-9h9m568 0h9v9M37 516v9h9m568 0h9v-9"/></g>
+</svg>

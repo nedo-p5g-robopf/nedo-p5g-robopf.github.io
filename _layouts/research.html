@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="container breadcrumb"><a href="{{ '/' | relative_url }}">ホーム</a><span>/</span><a href="{{ '/research/' | relative_url }}">研究開発成果</a><span>/</span><span>R{{ page.number }}</span></div>
+<article class="research-detail">
+  <header class="container detail-header">
+    <div class="eyebrow">RESEARCH & DEVELOPMENT <span>R{{ page.number }}</span></div>
+    <div class="detail-title-row"><div><div class="card-tags">{% for stage in site.data.stages %}{% if page.stages contains stage.id %}<span>{{ stage.title }}</span>{% endif %}{% endfor %}</div><h1>{{ page.title }}</h1><p class="lead">{{ page.description }}</p></div><div class="detail-icon">{% include icon.html name=page.icon %}</div></div>
+  </header>
+  <div class="container detail-grid">
+    <div class="prose">{{ content }}</div>
+    <aside class="resource-panel" aria-label="成果物の情報">
+      <p class="eyebrow">RESOURCE</p><h2>この成果について</h2>
+      <dl><dt>担当機関</dt><dd>{{ page.owners | join: '／' }}</dd><dt>資料での紹介箇所</dt><dd>CEATEC紹介資料 p. {{ page.source_pages | join: '・' }}</dd></dl>
+      {% if page.resource_url %}<span class="status is-open"><span class="status-dot"></span>公開リポジトリあり</span><a class="button button-primary" href="{{ page.resource_url }}">{{ page.resource_label | default: 'ソースコードを見る' }} {% include icon.html name="external" %}</a><p class="resource-note">導入方法・対応環境・ライセンスは、配布先のドキュメントをご確認ください。</p>{% else %}<p class="resource-note">このページは研究開発内容の紹介です。ソフトウェアの配布先は、本サイトには未掲載です。</p>{% endif %}
+    </aside>
+  </div>
+</article>
+<section class="section related-section"><div class="container"><div class="section-heading"><div><p class="eyebrow">EXPLORE MORE</p><h2>関連する研究成果</h2></div><a class="text-link" href="{{ '/research/' | relative_url }}">すべての成果を見る <span aria-hidden="true">↗</span></a></div><div class="research-grid">{% assign related_count = 0 %}{% assign ordered_research = site.research | sort: 'number' %}{% for item in ordered_research %}{% if item.url != page.url and related_count < 3 %}{% assign matches = false %}{% for stage in page.stages %}{% if item.stages contains stage %}{% assign matches = true %}{% endif %}{% endfor %}{% if matches %}{% include research-card.html item=item %}{% assign related_count = related_count | plus: 1 %}{% endif %}{% endif %}{% endfor %}</div></div></section>

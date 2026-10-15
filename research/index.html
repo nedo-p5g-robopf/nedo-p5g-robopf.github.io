@@ -1,0 +1,17 @@
+---
+title: 研究開発成果
+description: 設計・開発・検証・導入の各工程を支える16の開発項目。ロボットSI効率化につながるツール、フレームワーク、リファレンスシステムを探せます。
+---
+<div class="container breadcrumb"><a href="{{ '/' | relative_url }}">ホーム</a><span>/</span><span>研究開発成果</span></div>
+<section class="page-heading container"><p class="eyebrow">RESEARCH & DEVELOPMENT</p><h1>研究開発成果</h1><p class="lead">課題のある工程から、次の開発につながる技術へ。</p><p>設計・実装・検証・運用を支える、16の開発項目をご紹介します。</p></section>
+<section class="catalog-section" aria-label="研究成果一覧"><div class="container" data-catalog>
+  <div class="catalog-tools" hidden>
+    <div class="filter-row"><div class="stage-filters" role="group" aria-label="開発工程で絞り込み"><button data-filter="all" aria-pressed="true">すべて</button>{% for stage in site.data.stages %}<button data-filter="{{ stage.id }}" aria-pressed="false">{{ stage.title }}</button>{% endfor %}</div></div>
+    <div class="search-row"><div class="search-field">{% include icon.html name="search" %}<label class="sr-only" for="research-search">研究成果をキーワードで検索</label><input type="search" id="research-search" placeholder="技術名・キーワード・機関名で検索" autocomplete="off"></div><label class="open-filter"><input type="checkbox" id="public-only">公開リポジトリがある成果</label><button class="reset-filters" type="button">条件をリセット</button></div>
+  </div>
+  <noscript><p class="notice">すべての研究成果を表示しています。工程・キーワードでの絞り込みにはJavaScriptを有効にしてください。</p></noscript>
+  <div class="catalog-meta"><p role="status" aria-live="polite" aria-atomic="true" id="result-count"><strong>16</strong> 件の開発項目</p><p>公開リポジトリへのリンクは、各成果の詳細ページから。</p></div>
+  <div class="research-grid" id="research-results">{% assign ordered = site.research | sort: 'number' %}{% for item in ordered %}{% include research-card.html item=item %}{% endfor %}</div>
+  <div class="empty-state" hidden><h2>条件に一致する成果がありません</h2><p>キーワードを変えるか、絞り込み条件をリセットしてください。</p><button type="button" class="button button-primary reset-filters">すべての成果を表示</button></div>
+  <p class="catalog-note">「研究開発紹介」は資料に基づく取組の紹介です。公開状況や対応環境は各成果の説明・配布先をご確認ください。</p>
+</div></section>
