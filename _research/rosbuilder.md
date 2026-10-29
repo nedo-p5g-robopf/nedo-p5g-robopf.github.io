@@ -11,6 +11,7 @@ owners:
 - 名城大学
 owner_short: 産業技術総合研究所・会津大学・名城大学
 featured: true
+resource_url: https://github.com/OpenRTM/OpenRTP-aist
 ---
 ## 仕様からコードへ、開発の入口をつなぐ
 ROSBuilderは、モジュールの仕様を入力し、ROS 2ノードの開発に必要な成果物を自動生成する設計ツールです。繰り返し行う雛形作成を支援し、モジュール固有の機能開発に取り組みやすい環境を目指します。
