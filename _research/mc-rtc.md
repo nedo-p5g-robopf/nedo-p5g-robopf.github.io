@@ -10,9 +10,7 @@ owners:
 - 東京大学
 owner_short: 産業技術総合研究所・東京大学
 featured: true
-resource_url:
-- https://github.com/jrl-umi3218/mc_rtc
-- https://github.com/isri-aist/RoboManipBaselines
+resource_url: https://github.com/jrl-umi3218/mc_rtc
 ---
 ## 多様なロボットを、共通の考え方で制御する
 mc_rtcは、多自由度ロボットの制御ソフトウェア開発を支えるフレームワークです。複数のタスクを、重みや優先度と各種拘束条件に基づいて扱い、制御出力を計算します。
