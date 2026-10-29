@@ -1,15 +1,14 @@
 ---
 number: '03'
 title: ROS 2ノード設計ツール ROSBuilder
-description: モジュールの仕様から、ROS 2ノードの雛形やテストコード等を自動生成し、開発の立ち上げを支援。
+description: モジュールの仕様から、ROS 2ノードの雛形等を自動生成し、開発の立ち上げを支援。
 stages:
 - develop
 icon: code
 owners:
 - 産業技術総合研究所
-- 会津大学
 - 名城大学
-owner_short: 産業技術総合研究所・会津大学・名城大学
+owner_short: 産業技術総合研究所・名城大学
 featured: true
 resource_url: https://github.com/OpenRTM/OpenRTP-aist/releases/tag/v2.1.0
 ---
@@ -18,9 +17,8 @@ ROSBuilderは、モジュールの仕様を入力し、ROS 2ノードの開発�
 
 ## 主な研究開発内容
 - C++・Python等のROSノード雛形の生成
-- msg・srvファイル、テストコード、テスト用設定の生成
-- プロファイル、マニフェスト、SBOMなどの生成
-- ISO 22166-202に準拠したプロファイルの活用
+- プロファイル、マニフェストなどの生成
+- ISO 22166-202に準拠したプロファイルの生成・読込み
 
 ## 活用を想定する場面
 新しいROS 2モジュールを開発する際や、仕様と実装に関する情報を整理して引き渡す場面を支援します。
